@@ -1,0 +1,9 @@
+<!--pages/jilu/jilu.wxml-->
+<view class="bigbox">
+  <view class="my">{{userr}}</view>
+  <view class="jifen">当前积分</view>
+</view>
+<view class="content" wx:for="{{list}}">
+  <view>{{item.content}}</view>
+  <view class="time">{{item.time}}</view>
+</view>

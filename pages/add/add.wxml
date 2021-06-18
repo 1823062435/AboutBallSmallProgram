@@ -1,0 +1,8 @@
+<!--pages/add/add.wxml-->
+<!--pages/add/add.wxml-->
+<form class="container" bindsubmit="formSubmit">
+    <input type="text" name="content" class="addc" placeholder='内容'/>
+  <!-- 将表单组件中的 value 值进行提交，需要在表单组件中加上 name 来作为 key -->
+  <button class="addbt" form-type="submit">提交</button>
+  </form>
+

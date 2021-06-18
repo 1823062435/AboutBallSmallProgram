@@ -1,0 +1,83 @@
+/* pages/plan/plan.wxss */
+.date{
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-weight: 700;
+}
+.head{
+  height: 80rpx;
+  width: 100%;
+  text-align: center;
+  line-height: 80rpx;
+  background-color: rgb(113, 194, 255);
+  border-top-left-radius: 50rpx;
+  border-top-right-radius: 50rpx;
+}
+.foot{
+  height: 160rpx;
+  background-color: rgb(113, 194, 255);
+  border-bottom-left-radius: 50rpx;
+  border-bottom-right-radius: 50rpx;
+  padding-top: 30rpx;
+}
+.content{
+  float: left;
+  margin-bottom: 10rpx;
+}
+.box{
+   padding-top: 20rpx;
+  /* justify-content: space-between; */
+  height: 80rpx;
+  line-height: 65rpx;
+  border-bottom: 2rpx rgb(224, 224, 224) solid;
+  margin: 0 20rpx 0 20rpx;
+}
+.btn{
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center!important;
+  height: 50rpx!important;
+  width: 230rpx!important;*/
+  color: black;
+  font-size: 25rpx;
+  font-weight: 700;
+  border-radius: 50rpx;
+  border: black 1rpx solid; 
+  padding-right: 0rpx;
+  padding-left: 0rpx;
+  float:right;
+}
+.btn1{
+  /* 按钮中文字居中 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50rpx!important;
+  width: 300rpx!important;
+  font-size: 30rpx;
+  border: black 1rpx solid;
+  border-radius: 50rpx;
+}
+.btn2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50rpx!important;
+  width: 250rpx!important;
+  font-size: 30rpx;
+  border-radius: 50rpx;
+  border: black 1rpx solid;
+  margin-top: 20rpx!important;
+}
+.btna{
+  color: rgb(119, 119, 119);
+  font-size: 25rpx;
+  font-weight: 700;
+  border-radius: 50rpx;
+  border: black 1rpx solid; 
+  padding-right: 0rpx;
+  padding-left: 0rpx;
+  float:right;
+}

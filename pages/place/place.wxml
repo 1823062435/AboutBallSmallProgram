@@ -1,0 +1,30 @@
+<!--pages/place/place.wxml-->
+<view class="topp">
+  <view class="top-image">
+    <image class="head-tou" src="{{list.data.tempFilePaths}}" />
+  </view>
+  <view class="head">
+    <!-- 房间信息渲染 -->
+    <view>{{list.data.time}}</view>
+    <view>{{list.data.place}}
+      <image style="width:33rpx;height:40rpx;position:absolute;right:34rpx;" bindtap="dii"
+        src="http://m.qpic.cn/psc?/V50BGOrg3vM7KA3Qi63j0Inul91jUz8d/ruAMsa53pVQWN7FLK88i5gtyZFCOepQztTEtWnAAVCBV6KFcvYzP19BicKomdMwoHo4t2Ey8ZDCTwZKKSZnYGpQST4cBGm61ssE4GfrnThI!/mnull&bo=FQAZAAAAAAADBy4!&rf=photolist&t=5" />
+    </view>
+    <button class="{{nameS}}" bindtap="{{nameF}}" id="demo" open-type="getUserInfo">{{text}}</button>
+  </view>
+</view>
+<view class="buttomm" id="" class="bigbox">
+  <!-- 房主头像和名字-->
+  <view class="own">
+    <image src="{{list.data.avatarUrl}}" class="user-imgown"></image>  
+    <view class="user-nameown">房主</view>
+  </view>
+  <!-- 用户信息渲染 -->
+  <view wx:for="{{userr.data}}" class="userrr">
+    <image src="{{item.avatarUrl}}" class="user-img"></image>
+    <view class="user-name">{{item.nickName}}</view>
+  </view>
+  <image class="place-image12" bindtap="gochat" src="http://m.qpic.cn/psc?/V50BGOrg3vM7KA3Qi63j0Inul91jUz8d/ruAMsa53pVQWN7FLK88i5v1YYJSoR0OgoYz87aIDQKa*qXt1h5DgXtpW15VgAMX14yozv27m6*afd6JgEdKTCWhUQIs7JO6.0juP2FxSKG0!/mnull&bo=1gDIAAAAAAADBzw!&rf=photolist&t=5"></image>
+</view>
+
+<!-- <button bindtap="dii">{{list.data.place}}</button>  -->

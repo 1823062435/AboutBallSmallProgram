@@ -1,0 +1,11 @@
+<!--pages/duihuan/duihuan.wxml-->
+<!--index.wxml-->
+<view>
+  <view wx:for="{{list}}" class="box" wx:key="{{item.id}}">
+    <image class="image" src='{{item.img}}' alt=""></image>
+    <view class="name">{{item.name}}</view>
+    <view class="name2">所需积分：{{item.core}}</view>
+    <view class="duihuan" bindtap="duihuan">兑换</view>
+  </view>
+</view>
+

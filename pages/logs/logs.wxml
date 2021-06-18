@@ -1,0 +1,21 @@
+<view class="bigbox">
+<view class='box1' style='width: {{ sysW * 7 }}px'>
+ <view class='dateBox'>{{ year }} 年 {{ month}}月</view>
+ <!-- 下面是星期数组 -->
+ <block wx:for='{{ weekArr }}'>
+  <view style='width: {{ sysW }}px; height: {{ sysW }}px; line-height: {{ sysW }}px;'>{{ item }}</view>
+ </block>
+<!-- 下面是这个月的天的数组 -->
+ <block wx:for='{{ arr }}'>
+  <view style='{{ index == 0 ? "margin-left:" + sysW * marLet + "px;" : "" }}width: {{ sysW }}px; height: {{ sysW }}px; line-height: {{ sysW }}px;' class='{{ item == getDate ? "dateOn" : ""}}'>{{ item }}</view>
+ </block>
+</view>
+ <!-- 打卡按钮 -->
+ <button bindtap="check" class="{{timeselect==0?'btn1':'btn2'}}">{{timeselect==0?'打卡':'已打卡'}}</button>
+ <view class="{{timeselect==0?'getday1':'getday2'}}">
+   <view>已累计打卡</view>
+   <view class='time'>{{time}}</view>
+   <view>天</view>
+   <!-- <view>{{core}}</view> -->
+ </view>
+</view>

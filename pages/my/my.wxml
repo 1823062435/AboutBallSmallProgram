@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="user-info">
+        <view class="user-pic1">
+         <open-data type="userAvatarUrl" class="user-pic2"></open-data>
+        </view>
+        <view class="user-core">
+            <open-data type="userNickName" class="user-name"></open-data>
+            <view class="jifen">当前积分:<span class="jifen1">{{core}}</span></view>
+        </view>
+    </view>
+    <view class="content">
+        <view class="user-lbox1" bindtap="daka">签到<image src="/image/icorn.png" class="big-icorn"></image></view>
+        <view class="user-lbox1" bindtap="jifen">积分记录<image src="/image/icorn.png" class="big-icorn2"></image></view>
+        <view class="user-lbox1" bindtap="duihuan">积分兑换<image src="/image/icorn.png" class="big-icorn2"></image></view>
+        <view class="user-lbox1" bindtap="plan">运动计划<image src="/image/icorn.png" class="big-icorn2"></image></view>
+        <view class="user-lbox3" ><button  style="width:575rpx;" open-type="feedback" class="user-button">意见反馈</button><image src="/image/icorn.png" class="big-icorn3"></image></view>
+        <view class="user-lbox2" bindtap="mySet">设置<image src="/image/icorn.png" class="big-icorn"></image></view>
+    </view>
+</view>
+

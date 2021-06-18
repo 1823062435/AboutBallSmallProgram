@@ -1,0 +1,46 @@
+/* pages/duihuan/duihuan.wxss */
+/**index.wxss**/
+.box {
+  background-color: #ffffff;
+  height: 200rpx;
+  width: 99%;
+  border: 1rpx solid rgb(56, 56, 56);
+  box-shadow:  0rpx 2rpx 5rpx 0rpx #888888;
+  margin: auto;
+  margin-bottom: 25rpx;
+  border-radius: 5rpx;
+}
+.duihuan{
+  float: right;
+  height: 50rpx;
+  width: 120rpx;
+  border: 1rpx black solid;
+  line-height: 50rpx;
+  text-align: center;
+  margin-right: 20rpx;
+  background-color: #e6e6e6;
+  border-radius: 10rpx;
+  font-weight: 700;
+  font-size: 30rpx;
+}
+.name{
+  display: flex;
+  font-weight: 600;
+  margin-top: 30rpx;
+  margin-left: 242rpx;
+  color: #a02c2c;
+}
+.name2{
+  float: left;
+  font-size: 20rpx;
+  margin-top: 50rpx;
+  margin-left: 50rpx;
+  color: #727272;
+}
+.image{
+  float: left;
+  height: 180rpx;
+  width: 180rpx;
+  margin-left: 2rpx;
+  margin-top: 5rpx;
+}

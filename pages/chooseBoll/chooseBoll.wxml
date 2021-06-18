@@ -1,0 +1,6 @@
+<view class="bigbox">
+  <view class="box" bindtap="tologs" wx:for="{{sports}}" wx:key="{{item.id}}" id="{{item.id}}">
+    <image  src="{{item.img}}" class="{{item.id==5?'imgaa':'img'}}"></image>
+    <view class="content">{{item.sport}}</view>
+  </view> 
+</view>

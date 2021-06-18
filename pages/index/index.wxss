@@ -1,0 +1,81 @@
+/* pages/demo2/demo2.wxss */
+page{
+  background:linear-gradient( #55dff1,#8ae9ec);
+}
+swiper{
+   width: 100%;
+   width:100vw;
+   height: calc(100vw* 380 / 800);
+   margin-left:0rpx;
+}
+
+.tutu{
+  width: 100vw;
+ 
+}
+ .choose{              /*选择队友或对手大框 */
+  margin-top: 65rpx;
+}
+.firend{
+  height: 360rpx;
+  width: 360rpx;
+  margin-right: auto;
+   margin-left: auto;
+   margin-bottom: 56rpx;
+   text-align:center;
+   line-height:360rpx;
+   font-size:46rpx;
+   font-family:"黑体";
+   font-weight:bold;
+   color: #ffffff;
+   border:0px solid #fff;
+   box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.2);
+  background:linear-gradient( #4dc6fe,#4970f0);
+  border-radius: 50%;
+}
+
+
+
+.contentBotton{
+  margin-top: 60rpx;
+  padding-left: 42rpx;
+  display: flex;
+  flex-direction: row;
+}
+.di1{
+  width: 100rpx;
+  height: 69rpx;
+}
+.new1{
+  width: 77rpx;
+  height: 70rpx;
+}
+.qiandao1{
+  width: 59rpx;
+  height: 70rpx;
+}
+.aiai{
+  width: 196rpx;
+  height: 166rpx;
+  margin-right: 40rpx;
+  padding-top: 50rpx;
+  border-radius: 20rpx;
+  text-align:center ;
+  box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.zi{
+  font-size: 32rpx;
+  font-family:"微软雅黑";
+  font-weight:bold;
+  color: #ffffff;
+  margin-top:22rpx;
+}
+#aiai1{
+   background-color:#fdca40;
+}
+#aiai2{
+  background-color:#fb714a;
+}
+#aiai3{
+  background-color:#097216;
+}

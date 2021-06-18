@@ -1,0 +1,78 @@
+.creatR-total{
+     width: 100w;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     background:linear-gradient(#9dd4e4, #6cbac8);
+}
+
+
+.content{
+     width: 648rpx;
+     height: 970rpx;
+     background:#ffffff;
+     margin:auto auto  auto;
+     border-radius: 30rpx;
+     display: flex;
+     flex-direction: column;
+}
+.creat-i{
+     width: 547rpx;
+     height: 50rpx;
+     font-size: 30rpx;
+     font-weight: bold;
+     color: #000000;
+     margin:auto auto auto auto;
+}
+.creat-ii{
+     width: 502rpx;
+     height: 170rpx;
+     padding-top:50rpx;
+     margin:53rpx auto auto auto;
+}
+.creat-id{
+     width: 50%;
+     float: left;
+}
+.creat-in{
+     width: 341rpx;
+     height: 50rpx;
+     font-size:30rpx;
+     color: rgb(105, 100, 100);
+     float: right;
+     border:1px solid #000000;
+     border-radius: 15rpx;
+}
+.in-originally{
+  font-size: 27rpx;
+  font-weight: 500;
+}
+.creat-imageBox{
+     height: 100rpx;
+       line-height:100rpx;
+}
+.creat-image{
+     width: 100rpx;
+     height: 100rpx;
+     margin-left:140rpx;
+     border:1px solid #000000; 
+     border-radius: 50%;
+}
+.button-image{
+     width: 60rpx;
+     height: 60rpx;
+}
+.creat-bo{
+     height: 100rpx;
+     width: 100rpx;
+     border:1px solid #000000; 
+     border-radius: 50%;
+}
+.creat-button{
+     height: 120rpx;
+     font-size: 40rpx;
+     line-height:85rpx;
+     background:linear-gradient(#f9dbaa, #fdd68c);
+    border-radius: 40rpx;
+}
+

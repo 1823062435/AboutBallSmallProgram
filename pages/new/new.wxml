@@ -1,0 +1,2 @@
+<!--pages/new/new.wxml-->
+<web-view src="https://sports.sina.cn/"></web-view>

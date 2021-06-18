@@ -1,0 +1,38 @@
+/* pages/jilu/jilu.wxss */
+.bigbox{
+  display: flex;
+  flex-direction: column;
+  height: 300rpx;
+}
+.jifen{
+  text-align: center;
+  margin-bottom: 10rpx;
+  font-weight: 600;
+  color: rgb(65, 65, 65);
+}
+.my{
+  position:flex;
+  line-height: 150rpx;
+  margin: 0 25rpx;
+  font-size: 100rpx;
+  font-weight: 700;
+  color: rgb(184, 0, 0);
+  letter-spacing: 5rpx;
+  text-align: center;
+  line-height: 220rpx;
+}
+.content{
+  height: 130rpx;
+  margin: 0 25rpx;
+  border-bottom: 0.5rpx solid rgb(194, 194, 194);
+  margin-bottom: 10rpx;
+  padding-bottom: 10rpx;
+  padding-top: 5rpx;
+  font-size: 30rpx;
+  color: rgb(202, 199, 1);
+}
+.time{
+  font-size: 20rpx;
+  margin-top: 50rpx;
+  color: rgb(194, 194, 194);
+}

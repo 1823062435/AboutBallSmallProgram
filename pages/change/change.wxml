@@ -1,0 +1,7 @@
+<!--pages/change/change.wxml-->
+<form bindsubmit="formSubmit" class="container">
+<input type="text" name="change_content"  value='{{content}}' class="addc"/>
+<button form-type="submit" class="addbt">修 改</button>
+
+</form>
+

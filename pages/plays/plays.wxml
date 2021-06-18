@@ -1,0 +1,14 @@
+<view class="all">
+   <image src='{{content.img}}'  class="plays-boll"/>
+   <view class="plays-name">{{content.sport}}</view>
+   <view class="foot-same" id="foot-teammate">
+      找球友
+      <view class="choose" bindtap="creatRoom" hover-class="click-reeatRoom">创建房间</view>
+      <view class="choose" bindtap="joinRoom" hover-class="click-reeatRoom">加入房间</view>
+   </view>
+   <view class="foot-same" id="foot-opponent">
+      找对手
+      <view class="choose">创建房间</view>
+      <view class="choose">加入房间</view>
+   </view>
+</view>

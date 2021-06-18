@@ -1,0 +1,18 @@
+<!--pages/plan/plan.wxml-->
+<!--index.wxml-->
+<view >
+    <view class="date">{{year}}-{{month}}-{{day}}</view>
+    <view class="bigbox">
+      <view class="head">每日运动计划</view>
+      <view class="box" bindtap="delect" wx:for="{{list.data}}" id="{{item._id}}" wx:key="{{item._id}}">
+        <view class="content">{{item.content}}</view>
+        <button class="{{item.cla}}" style="width:160rpx;height:60rpx;" catchtap='{{item.tap}}' id="{{item._id}}" >{{item.tex}}</button>
+      </view>
+      <view class="foot">
+        <button class="btn2" bindtap='add'>
+          添加计划
+        </button>
+      </view>
+    </view>
+</view>
+

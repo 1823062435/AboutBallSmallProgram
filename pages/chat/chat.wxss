@@ -1,0 +1,56 @@
+/* pages/chat/chat.wxss */
+/**index.wxss**/
+/**index.wxss**/
+.msg-box{
+  padding: 20px;
+}
+.send-box{
+  display: flex;
+  position: fixed;
+  bottom: 30rpx;
+}
+.input{
+  border: 1px solid #B0C4DE;
+  padding: 5px;
+  width: 500rpx;
+}
+.msg-info{
+  display: block;
+  margin: 10px 0 0 0 ;
+  color: #339900;
+
+}
+.place-input{
+  color: rgb(182, 182, 182);
+}
+.list-view{
+  margin: 20px 0 0 0;
+  padding-bottom: 85rpx;
+}
+.item{
+  margin-top: 30rpx;
+  display: flex; 
+  justify-content:space-between;
+  border-bottom: 1px dashed #c7c7c7;
+  line-height: 30px;
+  padding-bottom: 10rpx;
+}
+.text1{ 
+  word-break:break-all;
+  width: 100%;
+}
+.close-btn{
+  float: right;
+  margin: 5px 5px 0 0;
+}
+.user-img{
+  height: 100rpx;
+  width: 100rpx;
+  border-radius: 50%;
+  margin-left: 45rpx;
+}
+.item-time{
+  margin-top:20rpx;
+  color: #6d3d3db6;
+  font-size: 23rpx;
+}

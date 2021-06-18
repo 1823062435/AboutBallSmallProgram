@@ -1,0 +1,38 @@
+/* pages/demo2/demo2.wxss */
+page{
+   background: linear-gradient(#35d8ee,#67d8f5,#98f8f8);
+   background-repeat:no-repeat; 
+   background-size:100% 100%;
+   -moz-background-size:100% 100%;
+ }
+ .bigbox{
+   position: relative;
+   left: 48rpx;
+   top: 150rpx;
+ }
+ .box{
+   height: 230rpx;
+   width: 201rpx;
+   float: left;
+   background-color: #ffffff;
+   text-align: center;
+   margin-right: 27rpx;
+   margin-bottom: 69rpx;
+   border-radius: 27rpx;
+   box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.2);
+ }
+ .img{
+   height: 82rpx;
+   width: 82rpx;
+   margin-top: 50rpx;
+ }
+ .imgaa{
+  margin-top: 16rpx;
+  height: 117rpx;
+  width: 117rpx;
+ }
+ .content{
+   margin-top: 10rpx;
+   font-size: 35rpx;
+   color: #2ab0f2;
+ }

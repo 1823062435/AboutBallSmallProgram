@@ -1,0 +1,17 @@
+<view class="bggg">
+<swiper autoplay interval="1400" indicator-dots  >
+  <swiper-item><image class="tutu" mode='widthFix' src="../../image/1.jpg"></image></swiper-item>
+  <swiper-item><image class="tutu" mode='widthFix' src="../../image/2.jpg"></image></swiper-item>
+  <swiper-item><image class="tutu" mode='widthFix' src="../../image/3.jpg"></image></swiper-item>
+</swiper>
+<view class="choose">
+  <view class="firend" bindtap="firend">点击约球</view>
+</view>
+
+<view class="contentBotton">
+  <view class="aiai" id="aiai1" bindtap="qiu1"><image class="di1" mode='widthFix'  src="../../image/球场.png" ></image><view class="zi" >附近球场</view></view>
+  <view class="aiai" id="aiai2" bindtap="daka1"><image class="qiandao1" mode='widthFix'  src="../../image/签到.png" ></image><view class="zi" >运动打卡</view></view>
+  <view class="aiai" id="aiai3" bindtap="new1"><image class="new1"  mode='widthFix' src="../../image/plan.png" ></image><view class="zi">运动计划</view></view>
+</view>
+</view>
+

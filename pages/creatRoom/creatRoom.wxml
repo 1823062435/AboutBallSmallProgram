@@ -1,0 +1,13 @@
+<!--pages/creatRoom/creatRoom.wxml-->
+<form class="creatR-total"  bindsubmit="formSubmit">
+<view class="creatR-total">
+   <view class="content">
+     <view class="creat-i"><view class="creat-id" style="color:#000000;font-size: 30rpx;">球类:</view><view class="creat-id" style="color:#fbae17;font-size: 29rpx;">{{room}}</view></view>
+     <view class="creat-i">房间人数:<input type="number" name="num"  class="creat-in" placeholder="人数不能超过20" placeholder-class="in-originally"/></view>
+     <view class="creat-i">约球地点:<input type="text"   name="place"  class="creat-in" placeholder="可根据定位进行查找" value="{{address}}" placeholder-class="in-originally"/> <image style="width:40rpx;height:50rpx;position:fixed;right:64rpx;" bindtap="creatPosition" src="http://m.qpic.cn/psc?/V50BGOrg3vM7KA3Qi63j0Inul91jUz8d/ruAMsa53pVQWN7FLK88i5gtyZFCOepQztTEtWnAAVCBV6KFcvYzP19BicKomdMwoHo4t2Ey8ZDCTwZKKSZnYGpQST4cBGm61ssE4GfrnThI!/mnull&bo=FQAZAAAAAAADBy4!&rf=photolist&t=5"/></view>
+     <view class="creat-i">运动时间段:<picker style="float:right" mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}"><input type="text" name="time" disabled="disabled"  class="creat-in" value='{{time}}' placeholder='点击选择时间(年-月-日-时-分)' placeholder-class="in-originally"/></picker></view>
+     <view class="creat-i" style="display:flex;flex-direction:row;"><view class="creat-imageBox">房间头像:</view><image bindtap='buttonclick' src="{{tempFilePaths}}" name="tempFilePaths" class="creat-image"/></view>
+     <view class="creat-ii"><button class="creat-button" open-type="getUserInfo" form-type="submit"><image class="button-image" src="http://m.qpic.cn/psc?/V50BGOrg3vM7KA3Qi63j0Inul91jUz8d/ruAMsa53pVQWN7FLK88i5gtyZFCOepQztTEtWnAAVCAKorkEgdCHHhoDhHglL6JQ0jKkta0PBPY7B.QPQOedo1TGZbktky2lTWYJv7tex8k!/mnull&bo=NAAyAAAAAAADByQ!&rf=photolist&t=5" />创建房间</button></view>
+   </view>
+</view>
+</form>

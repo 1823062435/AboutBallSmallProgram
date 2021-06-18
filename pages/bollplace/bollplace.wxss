@@ -1,0 +1,42 @@
+/* pages/bollplace/bollplace.wxss */
+.bigbox{
+  display: flex;
+  flex-direction: row;
+  border: 1rpx solid #777676;
+  margin-bottom: 10rpx;
+}
+.img{
+  height: 240rpx;
+  width: 340rpx;
+  padding: 3rpx;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50rpx;
+
+}
+.name{
+  font-size: 34rpx;
+  font-weight: 700;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+.placename{
+  font-size: 23rpx;
+  color: rgb(170, 170, 170);
+  margin-bottom: 10rpx;
+}
+.content{
+  border: 1rpx solid #999999;
+  width: 90rpx;
+  background-color:#1ddd16;
+  font-size: 27rpx;
+  text-align: center;
+  position: relative;
+  top: 25rpx;
+  left: 220rpx;
+}
+.kind1{
+     font-size: 28rpx;
+}

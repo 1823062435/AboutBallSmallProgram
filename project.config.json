@@ -1,0 +1,145 @@
+{
+  "description": "项目配置文件",
+  "cloudfunctionRoot": "cloudbase/",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": false,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": false,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.16.0",
+  "appid": "wx2f0e140449147300",
+  "projectname": "lianxi",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "scripts": {},
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/my/my",
+          "pathName": "pages/my/my",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/demo2/demo2",
+          "pathName": "pages/demo2/demo2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/demo1/demo1",
+          "pathName": "pages/demo1/demo1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/foodBall/foodBall",
+          "pathName": "pages/foodBall/foodBall",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/creatRoom/creatRoom",
+          "pathName": "pages/creatRoom/creatRoom",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/demo3/demo3",
+          "pathName": "pages/demo3/demo3",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/plays/plays",
+          "pathName": "pages/plays/plays",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/join/join",
+          "pathName": "pages/join/join",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/place/place",
+          "pathName": "pages/place/place",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/demo4/demo4",
+          "pathName": "pages/demo4/demo4",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/chat/chat",
+          "pathName": "pages/chat/chat",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/bollplace/bollplace",
+          "pathName": "pages/bollplace/bollplace",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/jilu/jilu",
+          "pathName": "pages/jilu/jilu",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

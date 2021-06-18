@@ -1,0 +1,18 @@
+<!--pages/join/join.wxml-->
+<view wx:if="{{list.data[0]}}">
+  <view wx:for="{{list.data}}" wx:key="{{item._id}}" class="box">
+    <image class="head" src="{{item.tempFilePaths}}" />
+    <view class="content" bindtap="place" id="{{item._id}}">
+      <view class="contentKind"><span class="contentKindB">时间:</span><span class="contentKindA">{{item.time}}</span>
+      </view>
+      <view class="contentKind"><span class="contentKindB">地点:</span><span class="contentKindA">{{item.place}}</span>
+      </view>
+      <view class="contentKind"><span class="contentKindB">人数:</span><span class="contentKindA"><span style="color:blue;">{{item.people}}</span>/<span style="color:orange">{{item.num}}</span></span>
+      </view>
+    </view>
+  </view>
+</view>
+<view wx:else class="otherText">
+  <text>目前还没有房间</text>
+  <button class="otherButtom" bindtap="createe">去创建</button>
+</view>

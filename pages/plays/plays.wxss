@@ -1,0 +1,53 @@
+.all{
+  width: 100vw;
+  height: 100vh;
+}
+.plays-boll{
+  width: 150rpx;
+  height: 150rpx;
+  display: inherit;
+  margin:0 auto 0;
+}
+.plays-name{
+  text-align:center;
+  line-height:70rpx;
+  letter-spacing:6rpx;
+  font-size:46rpx;
+  color: #969797;
+}
+.foot-same{
+  width: 95%;
+    height: 350rpx;
+    text-align: center;
+    color: #ffffff;
+    font-size: 44rpx;
+    line-height:140rpx;
+    margin: auto;
+    border-radius: 50rpx;
+    box-shadow: 4rpx 6rpx 20rpx #969797;
+}
+
+#foot-teammate{
+    background-color: rgb(241, 233, 162);
+    margin-top:100rpx ;
+}
+#foot-opponent{
+    background-color: rgb(153, 242, 248);
+    margin-top:90rpx ;
+}
+
+.choose{
+  width: 85%;
+  height: 80rpx;
+  color: #969797;
+  font-size: 30rpx;
+  line-height:80rpx;
+  letter-spacing:2rpx;
+  background-color: #ffffff;
+  margin: auto;
+  margin-bottom: 25rpx;
+  border-radius: 40rpx;
+}
+.click-reeatRoom{
+  background-color: #e2dfdf;
+}
